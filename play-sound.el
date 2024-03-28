@@ -32,7 +32,7 @@
 
 ;;; Code:
 
-(eval-when-compile (require 'cl))
+(eval-when-compile (require 'cl-lib))
 
 (defun play-sound-internal (sound)
   "Internal function for `play-sound' (which see)."
